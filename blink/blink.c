@@ -9,7 +9,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
 int app_main(void) {
 
    // Set PB7 (pin 13 LED) as an output
@@ -22,7 +21,6 @@ int app_main(void) {
       // Delay ~500 ms
       _delay_ms(500);
    }
-
 
     return 0;
 }

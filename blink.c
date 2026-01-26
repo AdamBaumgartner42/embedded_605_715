@@ -10,7 +10,7 @@
 #include <util/delay.h>
 
 
-int main(void) {
+int app_main(void) {
 
    // Set PB7 (pin 13 LED) as an output
    DDRB |= (1 << DDB7);

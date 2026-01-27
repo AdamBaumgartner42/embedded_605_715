@@ -19,7 +19,7 @@ int app_main(void) {
       PORTB ^= (1 << PORTB7);
 
       // Delay ~500 ms
-      _delay_ms(500);
+      _delay_ms(200);
    }
 
     return 0;

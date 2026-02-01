@@ -73,7 +73,6 @@ void flashLED(char* pattern) {
   }
 }
 
-
 void charToMorse(char* buf) {
   // walk the array
   for (int i = 0; buf[i] != '\0'; i++) {
@@ -107,7 +106,7 @@ void loop() {
 
       Serial.print("Morse code Displaying: ");
       Serial.println(buf);
-      delay(500); // pause to avoid TX RX flashes
+      delay(1000); // pause to avoid TX RX flashes
       charToMorse(buf);
 
       idx = 0;                // buffer index set to [0] for next string

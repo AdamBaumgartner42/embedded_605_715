@@ -1,5 +1,5 @@
 /*
- * @brief Log analog temperature Data to uing Round Robin Interrupts
+ * @brief Measure RPM with Round Robin Interrupts architecture
  * @author Adam Baumgartner
  * @date 2/22/26
  * @submittedDate 3/5/2026

@@ -40,7 +40,7 @@ void loop() {
     last = now;
 
     if(count < 8) {
-      rpm = 0;
+      
     } else {
       int16_t deltaMS = timestamps[(count-1) % 8] - timestamps[count % 8];
       int16_t rpm = (count * MSTOMIN) / (4 * deltaMS);
